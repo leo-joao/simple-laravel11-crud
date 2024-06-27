@@ -118,10 +118,5 @@ class UserController extends Controller
                 'message' => "User not deleted!"
             ], 400);
         }
-
-        return response()->json([
-            'status' => false,
-            'message' => "User not edited!"
-        ], 400);
     }
 }
